@@ -86,18 +86,18 @@
                         >;
                 };
 
-                extra {
-                        display-name = "PLACEHOLDER";
+                sytm {
+                        display-name = "sytm";
 // -----------------------------------------------------------------------------------------
 // |      |     |     |     |     |     |   |     |     |     |     |     |      |
-// |      |     |     |     |     |     |   |     |     |     |     |     |      |
+// |      |     |     | BRI-| BRI+|     |   |     | VOL-| VOL+|     |     |      |
 // |      |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    |     |     |     |   |     |     |     |
                         bindings = <
-   &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
-   &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
-   &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
-                        &trans &trans &trans   &trans &trans &trans
+   &trans &trans &trans &trans       &trans       &trans     &trans &trans       &trans       &trans &trans &trans
+   &trans &trans &trans &kp C_BRI_DN &kp C_BRI_UP &trans     &trans &kp C_VOL_DN &kp C_VOL_UP &trans &trans &trans
+   &trans &trans &trans &trans       &trans       &trans     &trans &trans       &trans       &trans &trans &trans
+                        &trans       &trans       &trans     &trans &trans       &trans
                         >;
                 };
         };
