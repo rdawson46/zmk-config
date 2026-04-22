@@ -23,10 +23,10 @@
 
     combos {
         compatible = "zmk,combos";
-        combo_esc {
+        combo_caps {
             timeout-ms = <50>;
             key-positions = <12 23>;
-            bindings = <&kp ESC>;
+            bindings = <&kp CAPS>;
         };
     };
 
